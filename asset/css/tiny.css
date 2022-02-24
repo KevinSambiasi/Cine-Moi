@@ -67,3 +67,7 @@
 .owl-carousel .item {
     position: relative;
 }
+
+@media (max-width: 576px) {
+    
+}

@@ -1,0 +1,69 @@
+.customize-tools {
+    position: relative;
+}
+
+.customize-tools .controls {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.customize-tools .controls .prev {
+    left: 0;
+    top: -18rem;
+    color: white;
+}
+
+.customize-tools .controls .next {
+    right: 0;
+    top: -18rem;
+    color: white;
+}
+
+.customize-tools .controls li {
+    z-index: 99;
+    display: block;
+    position: absolute;
+    height: 50px;
+    font-size: 3rem;
+    margin-top: -70px;
+    cursor: pointer;
+    transition: background 0.3s;
+    list-style: none;
+}
+
+.customize-tools .controls li .fas {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.customize-tools .controls li .fas:not(.tns-lazy-img), .customize-tools .controls li .lazyload i {
+    height: auto;
+}
+
+
+.owl-carousel img {
+    height: 37rem;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+}
+
+.owl-carousel .item .bouton-carousel {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.owl-carousel .item:hover .bouton-carousel {
+    display: block;
+}
+
+.owl-carousel .item {
+    position: relative;
+}

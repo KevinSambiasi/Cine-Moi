@@ -148,6 +148,28 @@ h2 {
     color: white;
 }
 
+@media (max-width: 768px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer img {
+        display: none;
+    }
+
+    .copyright {
+        position: relative;
+        left: 0;
+    }
+
+}
+
 @media (max-width: 576px) {
     .services {
         display: flex;
@@ -170,24 +192,3 @@ h2 {
 
 }
 
-@media (max-width: 768px) {
-    .services {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .carte-abo {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer img {
-        display: none;
-    }
-
-    .copyright {
-        position: relative;
-        left: 0;
-    }
-
-}

@@ -147,3 +147,25 @@ h2 {
 .footer .social-bar a {
     color: white;
 }
+
+@media (max-width: 576px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+    }
+}

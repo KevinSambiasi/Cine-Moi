@@ -91,11 +91,32 @@
     color: white;
 }
 
+h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
 
 .contain-all img {
-    width: 50%;
+    width: 40%;
 }
 
 .case-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(246, 232, 210);
+}
 
+.case-1 .right p{
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.right {
+    display: flex;
 }

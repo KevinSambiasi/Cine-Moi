@@ -21,47 +21,28 @@
     width: 13%;
 }
 
-.header img {
-    width: 10rem;
-}
 
 .title {
     text-align: center;
 }
 
-.link-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.navbar {
     font-family: "Holtwood One SC";
-    text-decoration: none;
     text-transform: uppercase;
 }
 
-.link-navbar a:hover {
-    color: #DDA54C;
-}
-
-.connexion a:hover {
-    color: #DDA54C;
-}
-
-.link-navbar a {
-    text-decoration: none;
+.navbar ul li a {
     color: white;
+    text-decoration: none;
     -webkit-text-stroke: 1px black;
 }
 
-.connexion {
-    display: flex;
-    justify-content: end;
-    font-family: "Holtwood One SC";
+.navbar ul li a::after {
+    color: white;
 }
 
-.connexion a {
-    text-decoration: none;
-    color: white;
-    -webkit-text-stroke: 1px black;
+.navbar ul li a:hover {
+    color: #DDA54C;
 }
 
 .services {
@@ -168,6 +149,10 @@ h2 {
         left: 0;
     }
 
+    .header .title img {
+        width: 50%;
+        height: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -191,4 +176,3 @@ h2 {
     }
 
 }
-

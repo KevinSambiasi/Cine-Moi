@@ -136,3 +136,7 @@ span {
 .button-card {
     left: 20%;
 }
+
+#prochainement {
+    display: none;
+}

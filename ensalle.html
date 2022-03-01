@@ -52,14 +52,15 @@
     <div class="tabs">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Actuellement</a>
+                <button class="nav-link active" aria-current="page"
+                    onclick="openServices('alaffiche')">Actuellement</button>
             </li>
             <li class="nav-item">
-                <a class="nav-link active">Prochainement</a>
+                <button class="nav-link" onclick="openServices('prochainement')">Prochainement</button>
             </li>
         </ul>
     </div>
-    <div class="contain-all container">
+    <div class="contain-all container" id="alaffiche">
         <div class="mt-5 mb-5">
             <div class="card mb-3" style="max-width: 1500px;">
                 <div class="row g-0">
@@ -225,6 +226,173 @@
             </div>
         </div>
     </div>
+    <div class="contain-all container" id="prochainement">
+        <div class="mt-5 mb-5">
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="./img/A l'affiche/moonfall.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col ps-5 pe-5 position-relative">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between pb-4">
+                                <h5 class="card-title">ueuigdlsf</h5>
+                                <div class="info-card">
+                                    <p><span>genre: </span> action,science-fiction <br><span>durée: </span> 2h10 <br>
+                                        <span>réalisation:
+                                        </span> roland emerich
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellendus
+                                    aliquid, eveniet aut expedita possimus illo ea laudantium sed autem adipisci beatae!
+                                    Labore
+                                    unde optio consequatur explicabo molestias rerum enim voluptatum?Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Deleniti, quibusdam fuga dolore fugit repudiandae
+                                    aliquid
+                                    est
+                                    culpa, mollitia cumque nam voluptates. Consequuntur distinctio voluptatibus iste
+                                    officia
+                                    earum itaque voluptatum deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="button-card position-absolute bottom-0 pb-3">
+                            <button type="button" class="button-ba btn  btn-lg px-5 me-5">Bande-annonce</button>
+                            <button type="button" class="button-resa btn  btn-lg px-5">Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5 mt-5">
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0 d-flex flex-row-reverse">
+                    <div class="col-md-3">
+                        <img src="./img/A l'affiche/uncharted.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col ps-5 pe-5 position-relative">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between pb-4">
+                                <h5 class="card-title">Uncharted</h5>
+                                <div class="info-card">
+                                    <p><span>genre: </span> action,science-fiction <br><span>durée: </span> 2h10 <br>
+                                        <span>réalisation:
+                                        </span> roland emerich
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellendus
+                                    aliquid, eveniet aut expedita possimus illo ea laudantium sed autem adipisci beatae!
+                                    Labore
+                                    unde optio consequatur explicabo molestias rerum enim voluptatum?Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Deleniti, quibusdam fuga dolore fugit repudiandae
+                                    aliquid
+                                    est
+                                    culpa, mollitia cumque nam voluptates. Consequuntur distinctio voluptatibus iste
+                                    officia
+                                    earum itaque voluptatum deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="button-card position-absolute bottom-0 pb-3">
+                            <button type="button" class="button-ba btn  btn-lg px-5 me-5">Bande-annonce</button>
+                            <button type="button" class="button-resa btn  btn-lg px-5">Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5 mt-5">
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="./img/A l'affiche/King.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col ps-5 pe-5 position-relative">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between pb-4">
+                                <h5 class="card-title">king</h5>
+                                <div class="info-card">
+                                    <p><span>genre: </span> action,science-fiction <br><span>durée: </span> 2h10 <br>
+                                        <span>réalisation:
+                                        </span> roland emerich
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellendus
+                                    aliquid, eveniet aut expedita possimus illo ea laudantium sed autem adipisci beatae!
+                                    Labore
+                                    unde optio consequatur explicabo molestias rerum enim voluptatum?Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Deleniti, quibusdam fuga dolore fugit repudiandae
+                                    aliquid
+                                    est
+                                    culpa, mollitia cumque nam voluptates. Consequuntur distinctio voluptatibus iste
+                                    officia
+                                    earum itaque voluptatum deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="button-card position-absolute bottom-0 pb-3">
+                            <button type="button" class="button-ba btn  btn-lg px-5 me-5">Bande-annonce</button>
+                            <button type="button" class="button-resa btn  btn-lg px-5">Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5 mt-5">
+            <div class="card mb-3" style="max-width: 1500px;">
+                <div class="row g-0 d-flex flex-row-reverse">
+                    <div class="col-md-3">
+                        <img src="./img/A l'affiche/the_batman.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col ps-5 pe-5 position-relative">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between pb-4">
+                                <h5 class="card-title">the batman</h5>
+                                <div class="info-card">
+                                    <p><span>genre: </span> action,science-fiction <br><span>durée: </span> 2h10 <br>
+                                        <span>réalisation:
+                                        </span> roland emerich
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Repellendus
+                                    aliquid, eveniet aut expedita possimus illo ea laudantium sed autem adipisci beatae!
+                                    Labore
+                                    unde optio consequatur explicabo molestias rerum enim voluptatum?Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Deleniti, quibusdam fuga dolore fugit repudiandae
+                                    aliquid
+                                    est
+                                    culpa, mollitia cumque nam voluptates. Consequuntur distinctio voluptatibus iste
+                                    officia
+                                    earum itaque voluptatum deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="button-card position-absolute bottom-0 pb-3">
+                            <button type="button" class="button-ba btn  btn-lg px-5 me-5">Bande-annonce</button>
+                            <button type="button" class="button-resa btn  btn-lg px-5">Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -243,6 +411,8 @@
             <a class="fs-1 px-2" href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </footer>
+
+    <script src="./asset/JS/script.js"></script>
 
 </body>
 

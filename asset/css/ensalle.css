@@ -97,26 +97,53 @@ h2 {
 }
 
 
-.contain-all img {
-    width: 40%;
-}
-
-.case-1 {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(246, 232, 210);
-}
-
-.case-1 .right p{
-    text-transform: uppercase;
-}
-
 span {
     font-weight: bolder;
     font-size: large;
 }
 
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 
-.right {
-    display: flex;
+span {
+    font-weight: bold;
+}
+
+.info-card {
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: rgb(246, 232, 210);
+}
+
+.button-ba {
+    background-color: black;
+    color: white;
+}
+
+.button-ba:hover {
+    color: #DDA54C;
+}
+
+.button-resa {
+    background-color: #DDA54C;
+    color: white;
+}
+
+.button-resa:hover {
+    color: #DDA54C;
+    color: black;
+}
+
+.card-text {
+    font-size: larger;
+
+}
+
+.button-card {
+    left: 18rem;
 }

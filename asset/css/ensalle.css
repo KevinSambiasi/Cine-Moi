@@ -109,6 +109,11 @@ span {
     background-color: rgb(246, 232, 210);
 }
 
+.card .weng {
+    height: 431px;
+    width: auto;
+}
+
 .button-ba {
     background-color: black;
     color: white;

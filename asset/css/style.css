@@ -181,3 +181,19 @@ h2 {
     }
 
 }
+
+@media (max-width: 1500px) {
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte-abo .text-abo {
+        padding-top: 3rem;
+    }
+
+    .carte-abo h2 {
+        text-align: center;
+    }
+}

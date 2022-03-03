@@ -32,25 +32,152 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav row col-12 justify-content-between text-center">
                                 <li class="nav-item col">
-                                    <a class="nav-link active" aria-current="page" href="#">accueil</a>
+                                    <a class="nav-link active" aria-current="page" href="./index.html">accueil</a>
                                 </li>
                                 <li class="nav-item col">
                                     <a class="nav-link" href="./ensalle.html">en salle</a>
                                 </li>
                                 <li class="nav-item col">
-                                    <a class="nav-link" href="./horaire.html">horaire / tarifs</a>
+                                    <a class="nav-link"  href="./horaire.html">horaire /
+                                        tarifs</a>
                                 </li>
                                 <li class="nav-item col">
                                     <a class="nav-link" href="./contact.html">contact</a>
                                 </li>
                                 <li class="nav-item col">
-                                    <a class="nav-link" href="#">se connecter / s'inscrire</a>
+                                    <button class="nav-btn" data-bs-toggle="modal"
+                                        data-bs-target="#ConnexionModalToggle"> </buttonhref>se connecter /
+                                        s'inscrire</button>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <div class="modal fade" id="ConnexionModalToggle" aria-hidden="true"
+                    aria-labelledby="connexionModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content container">
+                            <div class="modal-bf my-4">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="modal-close d-flex justify-content-end">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="top-modal d-flex flex-column align-items-center mb-5">
+                                            <h2 class="text-uppercase">CONNEXION</h2>
+                                            <img class="img-fluid" src="./img/logo.png" alt="logo">
+                                        </div>
+                                        <div class="col-12 row">
+                                            <div class="col d-flex flex-column">
+                                                <form style="width: 100%;">
+                                                    <div class="my-2">
+                                                        <input type="email" class="form-control my-2"
+                                                            id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                            placeholder="EMAIL *">
+                                                    </div>
+                                                    <div class="my-3">
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="MOT DE PASSE *">
+                                                    </div>
+                                                    <div class="d-flex justify-content-center align-items-end my-0">
+                                                        <button type="submit"
+                                                            class="btn-form justify-content-center">Connexion</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="btn-modal d-flex flex-column">
+                                                    <button class="my-2 btn-google justify-content-center" href="#">Se
+                                                        connecter
+                                                        avec Google</button>
+                                                    <button class="my-2 btn-facebook justify-content-center" href="#">Se
+                                                        connecter
+                                                        avec Facebook</button>
+                                                </div>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center modal-change">
+                                                    <p>Vous n'avez pas de compte ?</p>
+                                                    <button class="btn modal-change-btn text-uppercase fw-bold"
+                                                        data-bs-target="#inscriptionToggle2"
+                                                        data-bs-toggle="modal"></i>Cliquez ici !</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="inscriptionToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-content container">
+                                <div class="modal-bf my-4">
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="modal-close d-flex justify-content-end">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="top-modal d-flex flex-column align-items-center mb-5">
+                                                <h2 class="text-uppercase">CONNEXION</h2>
+                                                <img class="img-fluid" src="./img/logo.png" alt="logo">
+                                            </div>
+                                            <div class="col-12 row">
+                                                <div class="col d-flex flex-column">
+                                                    <form style="width: 100%;">
+                                                        <div class="my-2">
+                                                            <input type="Nom" class="form-control" id="exampleInputNom1"
+                                                                placeholder="NOM *">
+                                                        </div>
+                                                        <div class="my-3">
+                                                            <input type="Prenom" class="form-control"
+                                                                id="exampleInputPrenom1" placeholder="PRENOM *">
+                                                        </div>
+                                                        <div class="my-3">
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1" placeholder="MOT DE PASSE *">
+                                                        </div>
+                                                        <div class="my-3">
+                                                            <input type="email" class="form-control my-2"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                                placeholder="EMAIL *">
+                                                        </div>
+                                                        <div class="d-flex justify-content-center align-items-end my-0">
+                                                            <button type="submit"
+                                                                class="btn-form justify-content-center">S'enregistrer</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-end col-lg-6">
+                                                    <div class="btn-modal d-flex flex-column">
+                                                        <button class="my-3 btn-google justify-content-center"
+                                                            href="#">S'incrire avec Google</button>
+                                                        <button class="my-3 btn-facebook justify-content-center"
+                                                            href="#">S'incrire avec Facebook</button>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex align-items-center justify-content-center modal-change">
+                                                        <p>Déja inscrit ?</p>
+                                                        <button class="btn modal-change-btn text-uppercase fw-bold"
+                                                            data-bs-target="#ConnexionModalToggle"
+                                                            data-bs-toggle="modal"></i>Cliquez ici !</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        </div>
     </header>
     <div>
         <h2 class="ms-5 mt-5 mb-3">a l'affiche</h2>
@@ -173,8 +300,8 @@
             <img class="ps-4" src="./img/Nom_du_site_header.png" alt="logo-titre">
         </div>
         <div class="copyright">
-            CINÉ’MOI © 2022 — Tous droits réservés ® <br> <a href="./mentions.html">Mentions Légales</a>- <a href="./contact.html">Contact</a>- <a
-                href="#">Cookies</a>
+            CINÉ’MOI © 2022 — Tous droits réservés ® <br> <a href="./mentions.html">Mentions Légales</a>- <a
+                href="./contact.html">Contact</a>- <a href="#">Cookies</a>
         </div>
         <div class="social-bar">
             <a class="fs-1 px-2" href="#"><i class="fa-brands fa-facebook"></i></a>

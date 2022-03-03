@@ -147,7 +147,37 @@
     justify-content: center;
 }
 
+.actu {
+    display: flex;
+    align-items: baseline;
+}
 
+.tabs .nav-item button {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Roboto-Regular";
+    text-transform: uppercase;
+}
+
+.tabs .nav-item .active {
+    color: #9c0e0e;
+}
+
+.tabs .nav-item .next {
+    color: #DDA54C;
+}
+
+.tabs li {
+    display: flex;
+}
+
+.slash {
+    font-size: 2rem;
+    padding: 0 0.5rem ;
+}
 
 .footer {
     position: relative;
@@ -247,8 +277,6 @@ span {
 }
 
 .tabs {
-    display: flex;
-    justify-content: center;
     padding-top: 3rem;
 }
 
@@ -269,6 +297,4 @@ span {
 
 }
 
-@media (max-width: 1500px) {
-
-}
+@media (max-width: 1500px) {}

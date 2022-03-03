@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Holtwood One SC";
+    src: url(/font/Font/HoltwoodOneSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(/font/Font/Roboto-Regular.ttf);
+}
+
+
+:root {
+    --beige: #DDA54C;
+}
+
+.header {
+    background-color: #9c0e0e;
+}
+
+.header .title img {
+    width: 13%;
+}
+
+.title {
+    text-align: center;
+}
+
+.navbar {
+    font-family: "Holtwood One SC";
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke: 1px black;
+}
+
+.navbar .active {
+    color: #DDA54C;
+}
+
+.navbar ul li a::after {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #DDA54C;
+}
+
+.connexion {
+    display: flex;
+    justify-content: end;
+    font-family: "Holtwood One SC";
+}
+
+.connexion a {
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #9c0e0e;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.copyright {
+    position: absolute;
+    left: 45%;
+    text-align: center;
+}
+
+.footer .copyright a {
+    color: white;
+    font-weight: bold;
+}
+
+.footer img {
+    width: 45%;
+}
+
+.footer .social-bar a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer img {
+        display: none;
+    }
+
+    .copyright {
+        position: relative;
+        left: 0;
+    }
+
+    .header .title img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte-abo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer img {
+        display: none;
+    }
+
+    .copyright {
+        position: relative;
+        left: 0;
+    }
+
+}
+
+/* 404 CSS */
+
+.erreur .img-camera img {
+    transform: scaleX(-1);
+}
+
+.description-erreur {
+    margin-left: 15rem;
+}
+
+.description-erreur h2 {
+    font-family: "Holtwood One SC";
+    font-weight: bold;
+    font-size: 12rem;
+}
+
+.description-erreur h3 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.description-erreur p {
+    font-size: 2rem;
+}
+
+.description-erreur li {
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.description-erreur a {
+    text-decoration: none;
+    color: #9c0e0e;
+    font-family: "Roboto-Regular";
+    font-weight: bold;
+}
+
+.description-erreur a:hover {
+    color: var(--beige);
+}
+
+/*.footer {
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+}*/
+
+@media (max-width: 768px) {
+
+    .erreur .img-camera {
+        display: none;
+    }
+
+    .erreur .img-camera img {
+        display: none;
+    }
+
+    .texte-erreur {
+        margin-left: 2rem;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+}
+
+@media (max-width: 576px) {
+
+    .description-erreur h2 {
+        font-size: 5rem;
+    }
+
+    .description-erreur h3 {
+        font-size: 1rem;
+    }
+
+    .description-erreur li {
+        margin-left: 0.5rem;
+    }
+}

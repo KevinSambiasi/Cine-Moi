@@ -176,7 +176,7 @@
 
 .slash {
     font-size: 2rem;
-    padding: 0 0.5rem ;
+    padding: 0 0.5rem;
 }
 
 .footer {
@@ -268,8 +268,17 @@ span {
 
 }
 
+/*.contain-all {
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
 .button-card {
-    left: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
 
 #prochainement {
@@ -294,7 +303,44 @@ span {
         position: relative;
         left: 0;
     }
-
 }
 
-@media (max-width: 1500px) {}
+@media (max-width: 1400px) {
+    .card-body {
+        padding: 1rem 0;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .button-card {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-top {
+        padding: 0 !important;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .button-card {
+        margin-top: 0.5rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .contain-all {
+        max-width: 100%;
+        width: 100%;
+    }
+}

@@ -305,17 +305,10 @@ span {
     }
 }
 
-@media (max-width: 1400px) {
-    .card-body {
-        padding: 1rem 0;
-    }
-
-    .card-text {
-        font-size: 1rem;
-    }
-
-    .button-card {
-        margin-top: 2rem;
+@media (max-width: 991px) {
+    .contain-all {
+        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -337,10 +330,16 @@ span {
     }
 }
 
+@media (max-width: 1400px) {
+    .card-body {
+        padding: 1rem 0;
+    }
 
-@media (max-width: 991px) {
-    .contain-all {
-        max-width: 100%;
-        width: 100%;
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .button-card {
+        margin-top: 2rem;
     }
 }

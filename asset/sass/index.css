@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Holtwood One SC";
+  src: url(/font/Font/HoltwoodOneSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/font/Font/Roboto-Regular.ttf);
+}
+
 .header {
   background-color: #9c0e0e;
 }
@@ -185,20 +195,7 @@
   font-family: "Roboto-Regular";
 }
 
-.horaires .seances p {
-  margin-bottom: 0;
-  padding: 0.5rem 0;
-  color: #000;
-  font-family: "Roboto-Regular";
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.horaires .top-card-impair {
-  background-color: #DDA54C;
-}
-
-.horaires .top-card-impair .heure-impair {
+.horaires .heure-pair {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,11 +207,7 @@
           align-items: center;
 }
 
-.horaires .top-card-pair {
-  background-color: #F6E8D2;
-}
-
-.horaires .top-card-pair .heure-pair {
+.horaires .heure-impair {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,30 +229,37 @@
 
 .horaires .reservation-bouton:hover {
   color: #fff;
-  background-color: #DDA54C;
+  background-color: #dda54c;
 }
 
-.tarif {
+.horaires .seances p {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #000;
+  font-family: "Roboto-Regular";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.top-card-impair {
+  background-color: #dda54c;
+}
+
+.top-card-pair {
+  background-color: #f6e8d2;
+}
+
+.tarifs {
   margin: 0 20rem;
 }
 
-.tarif .fond-tarif {
-  background-color: #F6E8D2;
+.tarifs .fond-tarif {
+  background-color: #f6e8d2;
 }
 
-.tarif h2 {
+.tarifs h2 {
   font-family: "Holtwood One SC";
   font-size: 2.5rem;
   text-transform: uppercase;
 }
-
-.liste-tarif {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-bottom: 1.5rem;
-}
-
-.liste-tarif p {
-  margin-bottom: 0;
-}
-/*# sourceMappingURL=horaire.css.map */
+/*# sourceMappingURL=index.css.map */

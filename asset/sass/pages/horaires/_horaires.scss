@@ -1,0 +1,80 @@
+.horaires {
+    h2 {
+        font-family: "Roboto-Regular";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .date {
+        padding: 0;
+        font-family: "Roboto-Regular";
+    }
+
+    .heure-pair {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heure-impair {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reservation-bouton {
+        padding: 0.5rem 1rem;
+        background-color: #9c0e0e;
+        color: #fff;
+        font-family: "Roboto-Regular";
+        border-radius: 0;
+
+        &:hover {
+            color: #fff;
+            background-color: #dda54c;
+        }
+    }
+
+    .seances {
+        p {
+            margin-bottom: 0;
+            padding: 0.5rem 0;
+            color: #000;
+            font-family: "Roboto-Regular";
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.top-card-impair {
+    background-color: #dda54c;
+}
+
+.top-card-pair {
+    background-color: #f6e8d2;
+}
+
+.tarif {
+    margin: 0 20rem;
+
+    .fond-tarif {
+        background-color: #f6e8d2;
+    }
+
+    h2 {
+        font-family: "Holtwood One SC";
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    .liste-tarif {
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 1.5rem;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

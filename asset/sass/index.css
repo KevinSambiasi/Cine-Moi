@@ -1,0 +1,429 @@
+@font-face {
+  font-family: "Holtwood One SC";
+  src: url(/font/Font/HoltwoodOneSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/font/Font/Roboto-Regular.ttf);
+}
+
+.header {
+  background-color: #9c0e0e;
+}
+
+.header .title {
+  text-align: center;
+}
+
+.header .title img {
+  width: 13%;
+}
+
+.header .navbar {
+  font-family: "Holtwood One SC";
+  text-transform: uppercase;
+}
+
+.header .navbar .active {
+  color: #DDA54C;
+}
+
+.header .navbar ul li a {
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 1px black;
+}
+
+.header .navbar ul li a:hover {
+  color: #DDA54C;
+}
+
+.header .navbar ul li a::after {
+  color: white;
+}
+
+.header .navbar .nav-btn {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  font-weight: 400;
+  -webkit-text-stroke: 1px black;
+}
+
+.header .navbar .nav-btn:hover {
+  color: #DDA54C;
+}
+
+.header .btn-social, .header .modal .modal-body .btn-modal .btn-google, .header .modal .modal-body .btn-modal .btn-facebook {
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  font-family: "Roboto-Regular";
+}
+
+.header .modal .modal-header {
+  border-bottom: none;
+}
+
+.header .modal .modal-body {
+  border-radius: 5px;
+  background-color: #F6E8D2;
+}
+
+.header .modal .modal-body img {
+  width: 30%;
+  height: auto;
+}
+
+.header .modal .modal-body input {
+  border: 0.5px solid black;
+}
+
+.header .modal .modal-body .btn-form {
+  background-color: #9c0e0e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.header .modal .modal-body .btn-form:hover {
+  color: #DDA54C;
+}
+
+.header .modal .modal-body .btn-form button {
+  border: 0.5px solid black;
+}
+
+.header .modal .modal-body .btn-modal button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 6px 12px;
+  border: 0.5px solid black;
+}
+
+.header .modal .modal-body .btn-modal .btn-google {
+  background-image: url(https://client.cinemaspathegaumont.com/moncompte/resource/1538550912000/PHXC_Google_Btn);
+}
+
+.header .modal .modal-body .btn-modal .btn-facebook {
+  background-image: url(https://client.cinemaspathegaumont.com/moncompte/resource/1538550912000/PHXC_Facebook_Btn);
+}
+
+.header .modal .modal-body .btn-modal .modal-change-btn:hover {
+  color: #DDA54C;
+}
+
+.header .modal .modal-body .modal-change-btn {
+  color: #9c0e0e;
+}
+
+.header .modal .modal-body .modal-change p {
+  margin: 0;
+}
+
+.header .modal .modal-body .modal-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #9c0e0e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+footer img {
+  width: 45%;
+}
+
+footer .copyright {
+  position: absolute;
+  left: 45%;
+  text-align: center;
+}
+
+footer .copyright a {
+  color: white;
+  font-weight: bold;
+}
+
+footer .social-bar a {
+  color: white;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.horaires h2 {
+  font-family: "Roboto-Regular";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.horaires .date {
+  padding: 0;
+  font-family: "Roboto-Regular";
+}
+
+.horaires .heure-pair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.horaires .heure-impair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.horaires .reservation-bouton {
+  padding: 0.5rem 1rem;
+  background-color: #9c0e0e;
+  color: #fff;
+  font-family: "Roboto-Regular";
+  border-radius: 0;
+}
+
+.horaires .reservation-bouton:hover {
+  color: #fff;
+  background-color: #dda54c;
+}
+
+.horaires .seances p {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: #000;
+  font-family: "Roboto-Regular";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.top-card-impair {
+  background-color: #dda54c;
+}
+
+.top-card-pair {
+  background-color: #f6e8d2;
+}
+
+.tarif {
+  margin: 0 20rem;
+}
+
+.tarif .fond-tarif {
+  background-color: #f6e8d2;
+}
+
+.tarif h2 {
+  font-family: "Holtwood One SC";
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.tarif .liste-tarif {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.tarif .liste-tarif p {
+  margin-bottom: 0;
+}
+
+.ensalle h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.ensalle span {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.ensalle .card {
+  background-color: #f6e8d2;
+}
+
+.ensalle .card .card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.formulaire {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f6e8d2;
+  padding: 20px;
+  width: 100%;
+}
+
+.formulaire h1 {
+  color: black;
+  width: 100%;
+}
+
+.formulaire p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.formulaire input[type=text], .formulaire textarea, .formulaire input[type=e-mail] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+
+.formulaire input[type=submit] {
+  background-color: #DDA54C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.formulaire label {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  font-family: "Holtwood One SC";
+  font-weight: bold;
+}
+
+.erreur .description-erreur {
+  margin-left: 15rem;
+}
+
+.erreur .description-erreur h2 {
+  font-family: "Holtwood One SC";
+  font-weight: bold;
+  font-size: 12rem;
+}
+
+.erreur .description-erreur h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.erreur .description-erreur p {
+  font-size: 2rem;
+}
+
+.erreur .description-erreur li {
+  list-style: none;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.erreur .description-erreur a {
+  text-decoration: none;
+  color: #9c0e0e;
+  font-family: "Roboto-Regular";
+  font-weight: bold;
+}
+
+.erreur .description-erreur a:hover {
+  color: var(--beige);
+}
+
+.erreur .img-camera img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+@media (max-width: 768px) {
+  .erreur .img-camera {
+    display: none;
+  }
+  .erreur .img-camera img {
+    display: none;
+  }
+  .erreur .texte-erreur {
+    margin-left: 2rem;
+  }
+  .row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .description-erreur h2 {
+    font-size: 5rem;
+  }
+  .description-erreur h3 {
+    font-size: 1rem;
+  }
+  .description-erreur li {
+    margin-left: 0.5rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

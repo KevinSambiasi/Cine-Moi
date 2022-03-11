@@ -1,0 +1,40 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #9c0e0e;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+
+    img {
+        width: 45%;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 45%;
+        text-align: center;
+
+        a {
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .social-bar {
+
+        a {
+            color: white;
+        }
+    }
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

@@ -426,4 +426,210 @@ footer .social-bar a {
     margin-left: 0.5rem;
   }
 }
+
+.customize-tools {
+  position: relative;
+}
+
+.customize-tools .controls {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.customize-tools .controls .prev {
+  left: 0;
+  top: -18rem;
+  color: white;
+}
+
+.customize-tools .controls .next {
+  right: 0;
+  top: -18rem;
+  color: white;
+}
+
+.customize-tools .controls li {
+  z-index: 99;
+  display: block;
+  position: absolute;
+  height: 50px;
+  font-size: 3rem;
+  margin-top: -70px;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  list-style: none;
+}
+
+.customize-tools .controls li .fas {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.customize-tools .controls li .fas:not(.tns-lazy-img) {
+  height: auto;
+}
+
+.customize-tools .controls li .lazyload i {
+  height: auto;
+}
+
+.owl-carousel img {
+  height: 37rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  position: relative;
+}
+
+.owl-carousel .item {
+  position: relative;
+}
+
+.owl-carousel .item .bouton-carousel {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.owl-carousel .item:hover .bouton-carousel {
+  display: block;
+}
+
+h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.services {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #eed2a6;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.services p {
+  font-size: 2.5rem;
+  font-family: "Roboto-Regular";
+  font-weight: bold;
+}
+
+.services img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+}
+
+.item .bouton-carousel .resa {
+  background-color: #DDA54C;
+}
+
+.carte-abo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f6e8d2;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 10rem;
+  margin-top: 10rem;
+  font-size: 27px;
+  margin-bottom: 10rem;
+}
+
+.carte-abo h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.carte-abo .image-carte {
+  width: 500px;
+}
+
+@media (max-width: 1500px) {
+  .carte-abo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carte-abo h2 {
+    text-align: center;
+  }
+  .carte-abo .text-abo {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .carte-abo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .carte-abo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=index.css.map */

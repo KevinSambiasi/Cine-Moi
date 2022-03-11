@@ -61,13 +61,14 @@
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #9c0e0e;
     align-items: center;
     bottom: 0;
+    left: 0;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;

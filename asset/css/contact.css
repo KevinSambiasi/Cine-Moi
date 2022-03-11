@@ -149,8 +149,8 @@
 
 
 
-.footer {
-    position: absolute;
+.footer-fixed {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -160,6 +160,7 @@
     padding-bottom: 2rem;
     color: white;
     bottom: 0 !important;
+    left: 0;
     width: 100%;
 }
 

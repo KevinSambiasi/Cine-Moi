@@ -1,4 +1,4 @@
-.footer {
+footer {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -30,4 +30,11 @@
             color: white;
         }
     }
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }

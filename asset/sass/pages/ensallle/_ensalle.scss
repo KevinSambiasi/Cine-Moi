@@ -1,21 +1,85 @@
-.ensalle {
-    h2 {
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-
-    span {
-        font-weight: bolder;
-        font-size: large;
-    }
-
-    .card {
-        background-color: rgb(246, 232, 210);
-
-        .card-title {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 2.5rem;
-        }
-    }
+h2 {
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+span {
+	font-weight: bolder;
+	font-size: large;
+}
+.card-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.info-card {
+	text-transform: uppercase;
+}
+.card {
+	background-color: rgb(246, 232, 210);
+	.weng {
+		height: 431px;
+		width: auto;
+	}
+}
+.button-ba {
+	background-color: black;
+	color: white;
+	&:hover {
+		color: #DDA54C;
+	}
+}
+.button-resa {
+	background-color: #DDA54C;
+	color: white;
+	&:hover {
+		color: #DDA54C;
+		color: black;
+	}
+}
+.card-text {
+	font-size: larger;
+}
+.button-card {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}
+#prochainement {
+	display: none;
+}
+.slash {
+	font-size: 2rem;
+	padding: 0 0.5rem;
+}
+.actu {
+	display: flex;
+	align-items: baseline;
+}
+.tabs {
+	.nav-item {
+		button {
+			background-color: transparent;
+			text-decoration: none;
+			border: none;
+			font-weight: bold;
+			font-size: 2rem;
+			font-family: "Roboto-Regular";
+			text-transform: uppercase;
+		}
+		.active {
+			color: #9c0e0e;
+		}
+		.next {
+			color: #DDA54C;
+		}
+	}
+	li {
+		display: flex;
+	}
+	padding-top: 3rem;
+	ul {
+		li {
+			text-decoration: none;
+		}
+	}
 }

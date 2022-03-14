@@ -355,32 +355,125 @@ footer .social-bar a {
   margin-bottom: 0;
 }
 
-.ensalle h2 {
+h2 {
   font-weight: bolder;
   text-transform: uppercase;
 }
 
-.ensalle span {
+span {
   font-weight: bolder;
   font-size: large;
 }
 
-.ensalle .card {
-  background-color: #f6e8d2;
-}
-
-.ensalle .card .card-title {
+.card-title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.5rem;
+}
+
+.info-card {
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: #f6e8d2;
+}
+
+.card .weng {
+  height: 431px;
+  width: auto;
+}
+
+.button-ba {
+  background-color: black;
+  color: white;
+}
+
+.button-ba:hover {
+  color: #DDA54C;
+}
+
+.button-resa {
+  background-color: #DDA54C;
+  color: white;
+}
+
+.button-resa:hover {
+  color: #DDA54C;
+  color: black;
+}
+
+.card-text {
+  font-size: larger;
+}
+
+.button-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+#prochainement {
+  display: none;
+}
+
+.slash {
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.actu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.tabs {
+  padding-top: 3rem;
+}
+
+.tabs .nav-item button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+}
+
+.tabs .nav-item .active {
+  color: #9c0e0e;
+}
+
+.tabs .nav-item .next {
+  color: #DDA54C;
+}
+
+.tabs li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs ul li {
+  text-decoration: none;
 }
 
 .formulaire {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #f6e8d2;
-  padding: 20px;
+  padding: 10px 20px;
   width: 100%;
+  height: 85%;
 }
 
 .formulaire h1 {
@@ -389,20 +482,20 @@ footer .social-bar a {
 }
 
 .formulaire p {
-  font-size: 1.5rem;
-  padding-top: 2rem;
+  font-size: 1.3rem;
+  padding-top: 1rem;
   font-weight: bold;
 }
 
 .formulaire input[type=text], .formulaire textarea, .formulaire input[type=e-mail] {
   width: 100%;
-  padding: 12px;
+  padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 3px;
+  margin-bottom: 8px;
   margin-right: 0px;
   margin-left: 0px;
   resize: vertical;
@@ -422,6 +515,10 @@ footer .social-bar a {
   width: 100%;
   font-family: "Holtwood One SC";
   font-weight: bold;
+}
+
+.formulaire iframe {
+  width: 100%;
 }
 
 .erreur .description-erreur {

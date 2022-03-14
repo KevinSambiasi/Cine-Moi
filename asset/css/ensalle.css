@@ -147,37 +147,6 @@
     justify-content: center;
 }
 
-.actu {
-    display: flex;
-    align-items: baseline;
-}
-
-.tabs .nav-item button {
-    background-color: transparent;
-    text-decoration: none;
-    border: none;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: "Roboto-Regular";
-    text-transform: uppercase;
-}
-
-.tabs .nav-item .active {
-    color: #9c0e0e;
-}
-
-.tabs .nav-item .next {
-    color: #DDA54C;
-}
-
-.tabs li {
-    display: flex;
-}
-
-.slash {
-    font-size: 2rem;
-    padding: 0 0.5rem;
-}
 
 .footer {
     position: relative;
@@ -229,9 +198,6 @@ span {
     font-size: 2.5rem;
 }
 
-span {
-    font-weight: bold;
-}
 
 .info-card {
     text-transform: uppercase;
@@ -278,6 +244,39 @@ span {
 
 #prochainement {
     display: none;
+}
+
+.slash {
+    font-size: 2rem;
+    padding: 0 0.5rem;
+}
+
+
+.actu {
+    display: flex;
+    align-items: baseline;
+}
+
+.tabs .nav-item button {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Roboto-Regular";
+    text-transform: uppercase;
+}
+
+.tabs .nav-item .active {
+    color: #9c0e0e;
+}
+
+.tabs .nav-item .next {
+    color: #DDA54C;
+}
+
+.tabs li {
+    display: flex;
 }
 
 .tabs {
